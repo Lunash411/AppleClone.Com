@@ -1,3 +1,12 @@
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+h1, h2 and h3 {
+    line-height: 4px;
+}
+
 /*--------Header styling--------*/
 
 header {
@@ -27,5 +36,72 @@ nav a {
     background-color: white;
     color: #1d1d1f;
     text-align: center;
-    color: white;
+    color:black;
 }
+
+.iphone-pro {
+   background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_mediumtall.jpg);
+   width: 100%;
+   height: 650px;
+   background-position: center;
+   margin-bottom: 0%;
+   margin-top: 0%;
+   display: flex;
+   padding-top: 10px;
+   flex-direction: column;
+   align-items: center;
+}
+
+.iphone-13 {
+    background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_mediumtall.jpg);
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ 
+
+ .iphone-Vals-Day {
+    background-image: url(https://www.apple.com/v/home/aj/images/heroes/valentines-day-last-chance/hero_vday22__bt5gpd2vjafm_mediumtall.jpg);
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ /*-------multi style----*/
+.multi {
+    width: 45%;
+    height: 650px;
+    background-position: center;
+    margin-bottom: 0;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+
+ 
+ .iWatch {
+     background-image: url(https://www.apple.com/v/home/aj/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_medium.jpg);
+  
+ }
+
+ .entries {
+     background-image: url(https://www.apple.com/v/home/aj/images/promos/shot-on-iphone/tile_soip__f0c6lef982em_medium.jpg);
+ }
